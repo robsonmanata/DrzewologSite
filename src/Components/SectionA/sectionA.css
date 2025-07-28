@@ -1,0 +1,43 @@
+
+.sectionA{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.sectionA-left{
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.sectionA-title{
+  color: white;
+  height: 25vh;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20% ;
+
+  font-weight: bold;
+  background-image: url('/images/WhatsApp Image 2025-07-18 at 00.13.38_06f1fd3b.jpg');
+  background-size: cover;
+  
+}
+.sectionA-right{
+  display: flex;
+  flex-wrap: wrap ;
+  align-self: center;
+  padding-left: 15%;
+}
+.sectionA-right p{
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px)  {
+
+  .sectionA{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr ifr;
+}
+  
+}
