@@ -1,0 +1,25 @@
+ul {
+  width: 95vw;
+  height: 51vh;
+  padding: 10px;
+  display: flex;
+  gap: 1vw;
+  background-color: black;
+  overflow-x:scroll;
+  scroll-snap-type: x mandatory;
+  
+}
+li {
+  list-style-type: none;
+ 
+
+}
+
+li {
+  scroll-snap-align: center;
+}
+img {
+  width: 295px;
+  height: 295px;
+  object-fit: cover;
+}

@@ -3,41 +3,59 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+
 }
 .sectionA-left{
   display: flex;
-  flex-direction: column;
-
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+ height: 50vh;
+text-align: center;
+  background-image: url('/images/WhatsApp Image 2025-07-18 at 00.13.38_06f1fd3b.jpg');
   
 }
 .sectionA-title{
-  color: white;
-  height: 25vh;
+  color: #ffffff;
   font-size: 2rem;
-  text-align: center;
-  padding: 20% ;
-
   font-weight: bold;
-  background-image: url('/images/WhatsApp Image 2025-07-18 at 00.13.38_06f1fd3b.jpg');
-  background-size: cover;
+  width: 45%;
   
 }
 .sectionA-right{
+  height: 50vh;
+padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+  background: #4E6435;
   display: flex;
-  flex-wrap: wrap ;
-  align-self: center;
-  padding-left: 15%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 .sectionA-right p{
   font-size: 1.2rem;
+  color:white;
+  margin: 0 auto;
 }
-
+.sectionA-right button{
+  background-color: #040404; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
 @media (max-width: 768px)  {
 
   .sectionA{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr ifr;
+  grid-template-rows: 1fr 1fr;
 }
   
 }

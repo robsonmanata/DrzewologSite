@@ -1,15 +1,17 @@
-import './sectionB.css';
-import youngtree from '/images/youngtree.jpeg';
+import './sectionC.css';
+import TreeClimber from '/images/makwiramiti.jpg';
 
 
 
-
-function SectionB () {
+function SectionC () {
   return (
-    <div className="sectionB">
+    <div className="sectionC">
+     <div className="sectionC-left">
     
+      <img className="sectionC-img" src={TreeClimber} alt="sectionC"></img>
+    </div>
 
-      <div className="sectionB-right">
+      <div className="sectionC-right">
   
  <h1>🌱Pielęgnacja drzew młodych</h1>
           <p>Specjalizujemy się w pielęgnacji młodych drzew, aby w przyszłości 
@@ -25,10 +27,7 @@ główny filar naszej działalności –
 zapewniamy im najlepszy start ku długowieczności i stabilności.</p>
 
       </div>
-      <div className="sectionB-left">
-    
-      <img className="sectionB-img" src={youngtree} alt="sectionB"></img>
-    </div>
+     
     
 
     </div>
@@ -36,4 +35,4 @@ zapewniamy im najlepszy start ku długowieczności i stabilności.</p>
     
 };
 
-export default SectionB;
+export default SectionC;

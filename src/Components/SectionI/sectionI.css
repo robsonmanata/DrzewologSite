@@ -1,0 +1,26 @@
+.sectionI{
+    background-color:#4E6435 ;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column  ;
+}
+.sectionI-left{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+.sectionI-left li{
+    list-style-type: none;
+    margin: 10px 0;
+    
+}
+.sectionI-left  a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}

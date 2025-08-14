@@ -2,7 +2,14 @@
 import './App.css';
 import NavigationBar from './Components/NavigationBar/navigationBar';
 import SectionA from './Components/SectionA/sectionA';
-
+import SectionB from './Components/SectionB/sectionB';
+import SectionC from './Components/SectionC/sectionC';
+import SectionD from './Components/SectionD/sectionD';
+import SectionE from './Components/SectionE/sectionE';
+import SectionF from './Components/SectionF/sectionF';
+import SectionG from './Components/SectionG/sectionG';
+import SectionH from './Components/SectionH/sectionH';
+import SectionI from './Components/SectionI/sectionI';
 import { Routes,Route,useLocation } from 'react-router-dom';
 
 import {useRef} from "react";
@@ -51,7 +58,16 @@ function App() {
    <Route path="/"  element={
     <div>
    <SectionA></SectionA>
-   
+    <SectionB></SectionB>
+    <SectionC></SectionC>
+    <SectionD></SectionD>
+    <SectionE></SectionE>
+    <SectionF></SectionF>
+    <SectionG></SectionG>
+    <SectionH></SectionH>
+    <SectionI></SectionI>
+    
+    
    
    </div>
 

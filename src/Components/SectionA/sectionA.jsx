@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './sectionA.css';
 
 
@@ -13,7 +13,7 @@ function SectionA () {
 
       <div className="sectionA-right">
   
-        <p>Jesteśmy specjalistami w dziedzinie arborystyki i dendrologii. Oferujemy kompleksową opiekę nad drzewami – od młodych nasadzeń po wiekowe okazy. Pracujemy sprawnie i bezpiecznie. Zaufaj naturze — zafaj profesjonalistom.</p>
+        <p>Jesteśmy specjalistami w dziedzinie arborystyki i dendrologii. Oferujemy kompleksową opiekę nad drzewami – od młodych nasadzeń po wiekowe okazy. Pracujemy sprawnie i bezpiecznie.</p>
         <button className="sectionA-button">Dowiedz się więcej</button>
          <button className="sectionA-button">Poznaj naszą ofertę</button>
 
