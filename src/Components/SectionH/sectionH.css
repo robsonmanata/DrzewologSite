@@ -18,7 +18,7 @@ li {
 li {
   scroll-snap-align: center;
 }
-img {
+.sectionH img {
   width: 295px;
   height: 295px;
   object-fit: cover;
