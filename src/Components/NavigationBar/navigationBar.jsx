@@ -38,7 +38,7 @@ import {Link} from 'react-router-dom';
      <Link onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}}  to={`/#servicesid`}>O nas </Link>
     
     <Link to="/SectionA/sectionA">Usług </Link>
-    <Link onClick={()=>animation()} to="/Blog/blog">Portfolio</Link>
+    <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to={`/#hireMeid`}>Kontakt</Link></button>
     </div>
      <img className="imgicon" src={instagramIcon} alt="instagram icon"></img>
@@ -49,7 +49,7 @@ import {Link} from 'react-router-dom';
     <Link onClick={()=>animation()} to="/">Strona główna </Link>
     <Link onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}} to={`/#servicesid`}>O nas</Link>
     <Link onClick={()=>animation()} to="/Websitedesign/portfolio">Usług </Link>
-    <Link onClick={()=>animation()} to="/Blog/blog">Portfolio</Link>
+    <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to="/#hireMeid">Kontakt</Link></button>
   </div>  
  

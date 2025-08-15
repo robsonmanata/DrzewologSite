@@ -4,11 +4,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 40vh;
 }
 
 .footer img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+.footerBrands{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-top: 2%;
+    
+}
+
+.footerBrands a{
+    color: black;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
 }

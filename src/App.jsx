@@ -11,6 +11,7 @@ import SectionG from './Components/SectionG/sectionG';
 import SectionH from './Components/SectionH/sectionH';
 import SectionI from './Components/SectionI/sectionI';
 import Footer from './Components/Footer/footer';
+import Portfolio from './Components/Portfolio/portfolio';
 import ScrollToTopButton from './Components/ScrollToTopButton/scrollToTop';
 import { Routes,Route,useLocation } from 'react-router-dom';
 
@@ -72,7 +73,7 @@ function App() {
    }/>
 <Route path="/SectionA/sectionA"  element={<SectionA/>}/>
    <Route path="/Blog/blog"  element={<SectionB/>}/>
-   <Route path="/Webdeveloper/about" element={<SectionC/>}/>  
+   <Route path="/Portfolio/portfolio" element={<Portfolio/>}/>  
    
    </Routes>
    

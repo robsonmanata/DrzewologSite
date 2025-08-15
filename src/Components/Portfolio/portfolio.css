@@ -1,0 +1,93 @@
+.sectionE{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+margin-top: 1%;
+margin-bottom: 2%;
+
+}
+.sectionE-left{
+ padding-top: 2%;
+
+  
+}
+.sectionE-img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+    
+   
+}
+.sectionE-title{
+  color: #050505;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 45%;
+  
+}
+.sectionE-right{
+  
+padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.sectionE-right p{
+  font-size: 1.2rem;
+  color:black;
+  margin: 0 auto;
+}
+.Portfolio-grid{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #050505;
+  padding: 5vh;
+
+}
+.Portfolio-item{
+     
+    background-color: red;
+    padding: 10px;
+
+}
+.Portfolio-grid img{
+  
+  border-radius: 10px;  
+ max-width: 100%;
+ max-height: 100%;
+ aspect-ratio: 16/12;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.Portfolio-grid img:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px)  {
+
+  .sectionE{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.sectionE-left{
+  display: flex;
+  flex-direction: row;
+ height: 70vh;
+ padding-top: 2%;
+ justify-content: center;
+ 
+ 
+
+  
+}
+  
+}
