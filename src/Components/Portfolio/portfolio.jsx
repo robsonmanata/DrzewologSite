@@ -5,13 +5,13 @@ function Portfolio() {
   return (
 
     <div >
-        <div className="sectionE">
-           <div className="sectionE-left">
+        <div className="sectionPortfolio">
+           <div className="sectionPortfolio-left">
           
-            <img className="sectionE-img" src={cleaning} alt="sectionC"></img>
+            <img className="sectionPortfolio-img" src={cleaning} alt="sectionC"></img>
           </div>
       
-            <div className="sectionE-right">
+            <div className="sectionPortfolio-right">
         
        <h1>Realizacje (Portfolio)</h1>
                 <p>Zobacz wybrane projekty, które zrealizowaliśmy w 

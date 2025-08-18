@@ -1,6 +1,6 @@
 .sectionE{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr;
 margin-top: 1%;
 
@@ -48,7 +48,7 @@ padding-left: 5%;
   .sectionE{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
 }
 .sectionE-left{
   display: flex;

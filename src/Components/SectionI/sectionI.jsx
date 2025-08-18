@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function SectionI() {
   return (
-    <div className="sectionI">
+    <div id="hireMeid" className="sectionI">
     <div className="sectionI-left">
  <h1>Kontakt</h1>
       <h2>Masz pytania? Chcesz wycenić usługę? Skontaktuj się z nami – odpowiemy na każde zapytanie i 

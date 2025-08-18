@@ -35,9 +35,9 @@ import {Link} from 'react-router-dom';
 </div>
 <div className="links">
     <Link to="/">Strona główna </Link>
-     <Link onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}}  to={`/#servicesid`}>O nas </Link>
+     <Link onClick={()=>{myProps.scrollSection(myProps.services);myProps.setStartAnimation(); animation()}}  to={`/#servicesid`}>Usułg </Link>
     
-    <Link to="/SectionA/sectionA">Usług </Link>
+    <Link to="/Onas/onas">O nas </Link>
     <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to={`/#hireMeid`}>Kontakt</Link></button>
     </div>
@@ -47,8 +47,8 @@ import {Link} from 'react-router-dom';
     </div> 
     <div className={animated? "dropdown-content1":"dropdown-content"}>
     <Link onClick={()=>animation()} to="/">Strona główna </Link>
-    <Link onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}} to={`/#servicesid`}>O nas</Link>
-    <Link onClick={()=>animation()} to="/Websitedesign/portfolio">Usług </Link>
+    <Link onClick={()=>{myProps.scrollSection(myProps.services) ;myProps.setStartAnimation();animation()}} to={`/#servicesid`}>Usułg</Link>
+    <Link onClick={()=>animation()} to="/Onas/onas">O nas </Link>
     <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to="/#hireMeid">Kontakt</Link></button>
   </div>  

@@ -6,10 +6,10 @@ import car from '/images/car.jpg';
 
 function SectionG () {
   return (
-    <div className="sectionD">
+    <div className="sectionG">
     
 
-      <div className="sectionD-right">
+      <div className="sectionG-right">
   
  <h1>🛠 Sprzęt i technika</h1>
           <p>Dysponujemy nowoczesnym zapleczem technicznym: wywrotkami, rębakami,
@@ -17,9 +17,9 @@ function SectionG () {
             narzędziami akumulatorowymi – dzięki czemu nasza praca jest skuteczna i cicha.</p>
 
       </div>
-      <div className="sectionD-left">
+      <div className="sectionG-left">
     
-      <img className="sectionD-img" src={car} alt="sectionD"></img>
+      <img className="sectionG-img" src={car} alt="sectionD"></img>
     </div>
     
 

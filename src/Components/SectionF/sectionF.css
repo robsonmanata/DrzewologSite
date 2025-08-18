@@ -2,13 +2,15 @@
   display: flex;
     flex-direction: column;
   margin-top: 1%;
+  background-color: #f8f6f1;
+  padding-top: 2%; ;
 }
 .sectionF-left{
-  height: 80vh;
+  height: 60vh;
   width: 98vw;
     display: flex  ;
     justify-content: center;
-  background-color: #050505;
+  
 
 }
 
@@ -28,12 +30,13 @@
 }
 
 .sectionF-right{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2%;
 }
 .sectionF-right p{
   font-size: 1.2rem;

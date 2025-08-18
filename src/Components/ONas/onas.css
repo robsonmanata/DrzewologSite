@@ -1,0 +1,97 @@
+.sectionOnas{
+  display: flex;
+    flex-direction: column;
+  margin-top: 1%;
+}
+.sectionOnas-left{
+  height: 80vh;
+  width: 98vw;
+    display: flex  ;
+    justify-content: center;
+  background-color: #050505;
+
+}
+
+.sectionOnas-img{
+  
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 16/8;
+  object-fit: cover;
+}       
+
+.sectionOnas-right h1{
+  color: #050505;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.sectionOnas-right{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionOnas-right p{
+  font-size: 1.2rem;
+  color: black;
+  margin: 0 auto;
+}
+.sectionOnasB{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+}
+.sectionOnasB-left{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+ height: 50vh;
+text-align: center;
+  background-image: url('/images/WhatsApp Image 2025-07-18 at 00.13.38_06f1fd3b.jpg');
+  
+}
+.sectionOnasB-title{
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 45%;
+  
+}
+.sectionOnasB-right{
+  height: 50vh;
+padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+  background: #4E6435;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.sectionOnasB-right p{
+  font-size: 1.2rem;
+  color:white;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .sectionOnas{
+    display: flex;
+    flex-direction: column;
+  }
+   .sectionOnasB{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+  
+
+}
