@@ -11,7 +11,7 @@ margin-top: 1%;
   
 }
 .sectionE-img{
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   object-fit: cover;
   
@@ -48,18 +48,24 @@ padding-left: 5%;
   .sectionE{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3fr 1fr;
+  
 }
 .sectionE-left{
   display: flex;
   flex-direction: row;
- height: 70vh;
+
  padding-top: 2%;
  justify-content: center;
- 
- 
-
   
 }
+.sectionE-right p{
+  font-size: 1em;
+  
+}
+.sectionE-right h1{
+  font-size: 1.5rem;
+  
+}
+
   
 }

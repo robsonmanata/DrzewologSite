@@ -49,12 +49,21 @@ padding-left: 5%;
   .sectionC{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  
 }
 
   .sectionC-left{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.sectionC-right p{
+  font-size: 1em;
+  color:black;
+  margin: 0 auto;
+}
+.sectionC-right h1{
+  font-size: 1.5rem;
+
 }
 }

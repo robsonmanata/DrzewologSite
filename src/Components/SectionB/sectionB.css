@@ -9,7 +9,7 @@
 .sectionB-left{
   display: flex;
   flex-direction: row;
- height: 60vh;
+
   padding-top: 2%;
 
  justify-content: center;
@@ -25,15 +25,9 @@
     
    
 }
-.sectionB-title{
-  color: #050505;
-  font-size: 2rem;
-  font-weight: bold;
-  width: 45%;
-  
-}
+
 .sectionB-right{
-  height: 60vh;
+
 padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -55,12 +49,19 @@ padding-left: 5%;
   .sectionB{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  
   
 }
 .sectionB-right{
   order: 1;
   
+}
+.sectionB-right p{
+  
+  font-size: 1em;
+}
+.sectionB-right h1{
+  font-size: 1.5rem;
 }
 
   

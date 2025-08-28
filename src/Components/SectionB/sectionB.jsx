@@ -22,7 +22,7 @@ dobrze zbalansowaną koroną – ich otoczenie staje się bezpieczniejsze.W ofer
 rozwiązania abonamentowe w przystępnych cenach, 
 idealne dla opieki nad dużymi drzewostanami. Opieka nad młodymi drzewami stanowi 
 główny filar naszej działalności – 
-zapewniamy im najlepszy start ku długowieczności i stabilności.</p>
+zapewniamy im najlepszy start ku długowieczności i stabilności.</p>
 
       </div>
       <div className="sectionB-left">

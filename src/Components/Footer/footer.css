@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    padding: 2%;
 }
 
 .footer img{
@@ -23,7 +23,7 @@
 .footerBrands a{
     color: black;
 }
-.icon{
+.Footericon{
     width: 20px;
     height: 20px;
     margin: 0 10px;

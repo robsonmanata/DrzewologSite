@@ -1,25 +1,106 @@
 ul {
-  width: 95vw;
-  height: 51vh;
-  padding: 10px;
+  padding: 20px 0 20px 40px;
   display: flex;
-  gap: 1vw;
+  gap: 40px;
   background-color: black;
   overflow-x:scroll;
   scroll-snap-type: x mandatory;
+  scroll-behavior:smooth;
+  anchor-name: --carousel;
+ 
+
   
+}
+ul::scroll-marker-group{
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+
+}
+ul::scroll-marker{
+  content:'';
+  width: 1em;
+  height: 1em;
+  background-color: green;
+  border-radius: 50%;
+}
+ul::scroll-marker(active){
+  background-color: black;
+}
+
+ul::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+ul::scroll-button(right){
+  content: url('/images/angleright3.svg');
+  border: none;
+  
+  color: white;
+   
+  background-color: transparent;
+
+  border-radius: 50% ;
+  cursor: pointer;
+  position: fixed;
+  position-anchor: --carousel;
+  position-area: right center;
+  translate: -100%;
+  
+}
+ul::scroll-button(left){
+  content:  url('/images/angleleft3.svg');
+  border: none;
+  color: white;
+
+  border-radius: 50% ;
+  
+  cursor: pointer;
+  position: fixed;
+  position-anchor: --carousel;
+  position-area: left center;
+  translate: 100%;
+   background-color: transparent;
+}
+.ul::scroll-button(right):disabled, .ul::scroll-button(right):disabled {
+
+  opacity: 0.5;
+  cursor: auto;
 }
 li {
   list-style-type: none;
- 
-
 }
 
 li {
   scroll-snap-align: center;
 }
 .sectionH img {
-  width: 295px;
-  height: 295px;
+  width: 363px;
+  height: 363px;
   object-fit: cover;
+}
+@media (max-width: 768px)  {
+  li {
+  scroll-snap-align: center;
+}
+.sectionH img {
+  width: 83vw;
+  
+  object-fit: cover;
+}
+ul{
+  background-color: black;
+  padding-left: 10%;
+  gap: 40px;
+}
+ul::scroll-button(left){
+  translate: 50%;
+  height: 25px;
+  width:25px;
+}
+ul::scroll-button(right){
+  translate: -130%;
+  height: 25px;
+  width:25px;
+}
+
 }

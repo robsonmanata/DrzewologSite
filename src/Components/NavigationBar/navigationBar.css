@@ -22,8 +22,11 @@
       flex-basis: 60%;
       
     }
+    .links a:hover{
+      color: green;
+    }
    
-    .navigation a{
+    .links a{
       font-family: 'Saira Condensed', sans-serif;
       font-size: 1.2em;
       margin-right: 10px;
@@ -31,6 +34,19 @@
       color:#0b0b0b;
       text-decoration: none;
           
+    }
+    .icon{
+      font-size: 1.5em;
+      color: #0b0b0b;
+      margin-right: 5px;
+      margin-left: 5px;
+      height: 15px ;
+      width: 15px;
+      padding: 0px;
+    }
+   
+    .icon:hover{
+      color: green;
     }
     
     
@@ -64,7 +80,7 @@
    
     button{
       font-family: 'Saira Condensed', sans-serif;
-      background: #333646;
+      background: green;
       color: white;
       font-size: 0.9rem;
       border: 0px;
@@ -83,7 +99,7 @@ animation-delay: 2s;
     }
     button:hover {
       & a:nth-child(1){
-      color:#ffaf29;
+      color:#D2C49E;
       }
     }
     
@@ -117,8 +133,7 @@ animation-delay: 2s;
     }
     
     
-    .dropdown a:hover {color: #ffaf29;}
-     a:hover {color: #ffaf29;}
+   
     
      
     
@@ -253,6 +268,9 @@ animation-delay: 2s;
             text-decoration:none;
             
            
+          }
+          .dropdown-content1 a:hover{
+            color: #D2C49E;
           }
          
         

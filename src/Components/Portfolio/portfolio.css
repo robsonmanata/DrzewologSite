@@ -1,6 +1,6 @@
 .sectionPortfolio{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 margin-top: 1%;
 margin-bottom: 2%;
@@ -8,12 +8,13 @@ margin-bottom: 2%;
 }
 .sectionPortfolio-left{
  padding-top: 2%;
+ 
 
   
 }
 .sectionPortfolio-img{
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   object-fit: cover;
   
     
@@ -66,16 +67,27 @@ padding-left: 5%;
 }
 
 @media (max-width: 768px) {
+  .sectionPortfolio-right h1{
+  color: #050505;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 45%;
+  
+}
+.sectionPortfolio-right p{
+  font-size: 1em;
+  color:black;
+  margin: 0 auto;
+}
   .sectionPortfolio {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3fr 1fr;
+   
   }
 
   .sectionPortfolio-left {
     display: flex;
     flex-direction: row;
-    height: 70vh;
     padding-top: 2%;
     justify-content: center;
   }

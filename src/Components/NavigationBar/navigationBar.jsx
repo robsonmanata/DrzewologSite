@@ -1,8 +1,11 @@
 import "./navigationBar.css"
 import logo from "/images/DrzewologLogo.jpg";
-import instagramIcon from "/images/instagram-brands-solid-full.svg";
-import facebookIcon from "/images/facebook-f-brands-solid-full.svg";
-import phoneIcon from "/images/phone-solid-full.svg";
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram} from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
 import {Link} from 'react-router-dom';
 
@@ -41,9 +44,10 @@ import {Link} from 'react-router-dom';
     <Link onClick={()=>animation()} to="/Portfolio/portfolio">Portfolio</Link>
     <button onClick={()=>{myProps.scrollSection(myProps.hireMe) ; animation()}}><Link to={`/#hireMeid`}>Kontakt</Link></button>
     </div>
-     <img className="imgicon" src={instagramIcon} alt="instagram icon"></img>
-     <img className="imgicon" src={facebookIcon} alt="Facebook icon"></img>
-     <img className="imgicon" src={phoneIcon} alt="call icon"></img>
+     <a href="https://www.instagram.com/drzewolog/"><FontAwesomeIcon  icon={faInstagram} className='icon' /></a>
+      <a href="https://www.facebook.com/drzewolog"><FontAwesomeIcon  icon={faFacebook} className='icon'/></a>
+     <a href="tel:+48886772991"><FontAwesomeIcon className="icon" icon={faPhone} /></a>
+    
     </div> 
     <div className={animated? "dropdown-content1":"dropdown-content"}>
     <Link onClick={()=>animation()} to="/">Strona główna </Link>

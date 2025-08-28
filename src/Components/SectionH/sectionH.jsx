@@ -1,6 +1,16 @@
 
 import './sectionH.css';
 import treeCare from '/images/car.jpg';
+import circleTrees from '/images/circleTrees.jpeg';
+import yard from '/images/yard.jpeg';
+
+import ones from '/images/1.jpg';
+    
+import threes from '/images/3.jpg';
+import fours from '/images/4.jpg'; 
+import fives from '/images/5.jpeg';
+import tallBushes from '/images/tallBushes.jpg';
+import sixes from '/images/sixes.jpg';
 
 function SectionH() {
   return (
@@ -11,22 +21,28 @@ function SectionH() {
     <img src={treeCare}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={threes}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={fours}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={fives}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={ones}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={tallBushes}></img>
   </li>
    <li>
-    <img src={treeCare}></img>
+    <img src={circleTrees}></img>
+  </li>
+  <li>
+    <img src={yard}></img>
+  </li>
+  <li>
+    <img src={sixes}></img>
   </li>
   
 </ul>

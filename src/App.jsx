@@ -33,7 +33,6 @@ function App() {
   const hireme = useRef(null);
   const scrollSection =(elementRef)=>{
     elementRef.current.scrollIntoView({ behavior: 'smooth' });
-   
 
   }
 
@@ -61,7 +60,7 @@ function App() {
    <Routes>
    <Route path="/"  element={
     <div>
-   <SectionA></SectionA>
+   <SectionA hireMe={hireme} services={services} scrollSection={scrollSection} startAnimation={startAnimation} setStartAnimation={myAnimation}></SectionA>
     <SectionB></SectionB>
     <SectionC></SectionC>
     <SectionD></SectionD>

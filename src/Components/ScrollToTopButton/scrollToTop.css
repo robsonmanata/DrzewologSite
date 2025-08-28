@@ -1,5 +1,5 @@
 .scrollb{
-    background-color: #4e6435;
+    background-color: #D2C49E;
     width: 50px;
     height: 50px;
     z-index: 99;
@@ -24,7 +24,7 @@
 
   @media(max-width: 768px) {
     scrollb button{
-        background-color: #4e6435;
+        background-color: #D2C49E;
         display: block;
         width: 50px;
         height: 50px;
