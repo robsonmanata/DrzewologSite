@@ -1,5 +1,5 @@
 import './sectionF.css';
-import blackTruck from '/images/circleTrees.jpeg';
+import blackTruck from '/images/blacktrack.jpg';
 // import treeCare from '/images/treeCare.jpg';
 
 function SectionF () {
