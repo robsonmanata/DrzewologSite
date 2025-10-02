@@ -13,18 +13,10 @@ function SectionC () {
 
       <div className="sectionC-right">
   
- <h1>🌱Pielęgnacja drzew młodych</h1>
-          <p>Specjalizujemy się w pielęgnacji młodych drzew, aby w przyszłości 
-          były zdrowe, silne i
-           wolne od wad strukturalnych. 
-          To inwestycja w bezpieczną zieleń przyszłości.
-Poprawny wzrost młodych drzew ma ogromne znaczenie dla przyszłych pokoleń i 
-całych drzewostanów. Gdy drzewa rosną bez zakorka, konkurujących przewodników, z 
-dobrze zbalansowaną koroną – ich otoczenie staje się bezpieczniejsze.W ofercie mamy 
-rozwiązania abonamentowe w przystępnych cenach, 
-idealne dla opieki nad dużymi drzewostanami. Opieka nad młodymi drzewami stanowi 
-główny filar naszej działalności – 
-zapewniamy im najlepszy start ku długowieczności i stabilności.</p>
+ <h1>🌳Pielęgnacja drzew dojrzałych</h1>
+          <p>Jeżeli to konieczne to wykonamy redukcje, zdejmiemy susz, ewakuujemy części 
+          uszkodzone i niebezpieczne. Dbamy o kondycję i estetykę drzew z uwzględnieniem 
+          ich biologii oraz lokalnych warunków.</p>
 
       </div>
      

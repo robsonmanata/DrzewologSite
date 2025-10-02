@@ -13,7 +13,7 @@ function SectionI() {
       
         <li><a href="mailto: drzewolog@gmail.com"><FontAwesomeIcon className="Contacticon" icon={faEnvelope} /> drzewolog@gmail.com</a> </li>  
         
-        <li><a href="tel:+1234567890"><FontAwesomeIcon className="Contacticon" icon={faPhone} /> +48 123 456 789</a></li>
+        <li><a href="tel:+48886772991"><FontAwesomeIcon className="Contacticon" icon={faPhone} /> +48 886 772 991</a></li>
         
        
     </div>
